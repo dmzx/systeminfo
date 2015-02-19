@@ -1,0 +1,8 @@
+services:
+    dmzx.systeminfo.listener:
+        class: dmzx\systeminfo\event\listener
+        arguments:
+            - @config
+            - @template
+        tags:
+            - { name: event.listener }
