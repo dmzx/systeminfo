@@ -25,7 +25,7 @@
 		},
 		"version-check": {
 			"host": "www.phpbb.com",
-			"directory": "/customise/db/extension/systeminfo",
+			"directory": "/customise/db/extension/system_info",
 			"filename": "version_check"
 		}
 	}
