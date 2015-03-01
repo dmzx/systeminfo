@@ -1,6 +1,6 @@
 <?php
 /**
-* @package System Info extension
+* @package System Info
 * @copyright (c) 2015 dmzx - http://dmzx-web.net
 * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 */
