@@ -33,13 +33,13 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-   'SYSTEM_INFO'			  => 'معلومات النظام',
-   'SYSTEM_UPTIME'			=> 'مُدّة السيرفر :',
-   'SYSTEM_LOAD'			  => 'متوسط التحميل :',
-   'SYSTEM_NAME'			  => 'النظام :',
-   'SYSTEM_DAYS'			  => 'أيام,',
-   'SYSTEM_HOURS'			 => 'ساعات,',
-   'SYSTEM_MIN'			   => 'دقائق و ',
-   'SYSTEM_SECS'			  => 'ثواني',
-   'BOARD_VERSION'			=> 'إصدار المنتدى ',
+	'SYSTEM_INFO'				=> 'معلومات النظام',
+	'SYSTEM_UPTIME'			=> 'مُدّة السيرفر :',
+	'SYSTEM_LOAD'				=> 'متوسط التحميل :',
+	'SYSTEM_NAME'				=> 'النظام :',
+	'SYSTEM_DAYS'				=> 'أيام,',
+	'SYSTEM_HOURS'			 => 'ساعات,',
+	'SYSTEM_MIN'				=> 'دقائق و ',
+	'SYSTEM_SECS'				=> 'ثواني',
+	'BOARD_VERSION'			=> 'إصدار المنتدى ',
 ));

@@ -31,13 +31,13 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-   'SYSTEM_INFO'			  => 'System info',
-   'SYSTEM_UPTIME'			=> 'Server Uptime:',
-   'SYSTEM_LOAD'			  => 'Average load:',
-   'SYSTEM_NAME'			  => 'System:',
-   'SYSTEM_DAYS'			  => 'days,',
-   'SYSTEM_HOURS'			 => 'hours,',
-   'SYSTEM_MIN'			   => 'minutes and',
-   'SYSTEM_SECS'			  => 'seconds',
-   'BOARD_VERSION'			=> 'Board version',
+	'SYSTEM_INFO'				=> 'System info',
+	'SYSTEM_UPTIME'			=> 'Server Uptime:',
+	'SYSTEM_LOAD'				=> 'Average load:',
+	'SYSTEM_NAME'				=> 'System:',
+	'SYSTEM_DAYS'				=> 'days,',
+	'SYSTEM_HOURS'			 => 'hours,',
+	'SYSTEM_MIN'				=> 'minutes and',
+	'SYSTEM_SECS'				=> 'seconds',
+	'BOARD_VERSION'			=> 'Board version',
 ));

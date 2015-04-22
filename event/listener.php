@@ -42,23 +42,23 @@ class listener implements EventSubscriberInterface
 	{
 
 	$uptimeindex	 = shell_exec("cut -d. -f1 /proc/uptime");
-	$daysindex	   = floor($uptimeindex/60/60/24);
-	$hoursindex	  = $uptimeindex/60/60%24;
-	$minsindex	   = $uptimeindex/60%60;
-	$secsindex	   = $uptimeindex%60;
+	$daysindex		= floor($uptimeindex/60/60/24);
+	$hoursindex		= $uptimeindex/60/60%24;
+	$minsindex		= $uptimeindex/60%60;
+	$secsindex		= $uptimeindex%60;
 	$load			= sys_getloadavg();
-	$os			  = php_uname('s') . ' ' . php_uname('r');
+	$os				= php_uname('s') . ' ' . php_uname('r');
 
 		$this->template->assign_vars(array(
-   'UPTIME_DAYS'		  => $daysindex,
-   'UPTIME_HOURS'		 => $hoursindex,
-   'UPTIME_MINS'		  => $minsindex,
-   'UPTIME_SECS'		  => $secsindex,
-   'AVG_LOAD0'			=> $load[0],
-   'AVG_LOAD1'			=> $load[1],
-   'AVG_LOAD2'			=> $load[2],
-   'PHP_OS'			   => $os,
-   'BOARD_VERSION'		  => $this->config['version'],
+	'UPTIME_DAYS'			=> $daysindex,
+	'UPTIME_HOURS'		 => $hoursindex,
+	'UPTIME_MINS'			=> $minsindex,
+	'UPTIME_SECS'			=> $secsindex,
+	'AVG_LOAD0'			=> $load[0],
+	'AVG_LOAD1'			=> $load[1],
+	'AVG_LOAD2'			=> $load[2],
+	'PHP_OS'				=> $os,
+	'BOARD_VERSION'			=> $this->config['version'],
 		));
 	}
 
